@@ -1,6 +1,6 @@
 package Games::Zumbis::Tiro;
 BEGIN {
-  $Games::Zumbis::Tiro::VERSION = '0.01';
+  $Games::Zumbis::Tiro::VERSION = '0.02';
 }
 use 5.10.0;
 use Mouse;

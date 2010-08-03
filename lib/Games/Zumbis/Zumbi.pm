@@ -1,6 +1,6 @@
 package Games::Zumbis::Zumbi;
 BEGIN {
-  $Games::Zumbis::Zumbi::VERSION = '0.01';
+  $Games::Zumbis::Zumbi::VERSION = '0.02';
 }
 use Mouse;
 use SDL::Rect;
@@ -35,8 +35,7 @@ sub BUILDARGS {
     my ($self, %args) = @_;
 
     my $z = SDLx::Sprite::Animated->new
-      ( #image => SPRITE_IMAGE,
-        surface => $imagem_zumbi,
+      ( surface => $imagem_zumbi,
         rect  => $rect_zumbi,
         ticks_per_frame => SPRITE_TPS,
       );
@@ -150,7 +149,7 @@ sub rect {
 
 sub render {
     my ($self, $surface) = @_;
-    $self->sprite->stop if $self->sequence =~ /morrendo/ && $self->sprite->{current_frame} == 5;
+    $self->sprite->stop if $self->sequence =~ /morrendo/ && $self->sprite->current_frame == 5;
     $self->sprite->draw_xy( $surface, $self->x, $self->y );
 }
 

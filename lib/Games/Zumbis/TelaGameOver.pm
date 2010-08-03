@@ -1,6 +1,6 @@
 package Games::Zumbis::TelaGameOver;
 BEGIN {
-  $Games::Zumbis::TelaGameOver::VERSION = '0.01';
+  $Games::Zumbis::TelaGameOver::VERSION = '0.02';
 }
 use Mouse;
 use SDL::Rect;

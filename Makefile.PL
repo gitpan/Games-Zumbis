@@ -30,10 +30,10 @@ my %WriteMakefileArgs = (
     'FindBin' => '1.0',
     'Mouse' => '0.64',
     'Path::Class' => '0.19',
-    'SDL' => '2.503',
+    'SDL' => '2.510',
     'XML::Compile' => '1.16'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
