@@ -6,8 +6,10 @@ MANIFEST.SKIP
 META.yml
 Makefile.PL
 README
+TODO
 bin/zumbis
 dist.ini
+dzil_plugins
 lib/Games/Zumbis.pm
 lib/Games/Zumbis/Audio.pm
 lib/Games/Zumbis/Mapa.pm

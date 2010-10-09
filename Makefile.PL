@@ -28,12 +28,14 @@ my %WriteMakefileArgs = (
     'Carp' => '1.0',
     'File::ShareDir' => '1.02',
     'FindBin' => '1.0',
+    'Getopt::Long' => '2.35',
     'Mouse' => '0.64',
     'Path::Class' => '0.19',
+    'Pod::Usage' => '1.32',
     'SDL' => '2.510',
     'XML::Compile' => '1.16'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }

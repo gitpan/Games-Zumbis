@@ -7,7 +7,7 @@ configure_requires:
   ExtUtils::MakeMaker: 6.31
   File::ShareDir::Install: 0.03
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.101670'
+generated_by: 'Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.102400'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,11 +17,13 @@ requires:
   Carp: 1.0
   File::ShareDir: 1.02
   FindBin: 1.0
+  Getopt::Long: 2.35
   Mouse: 0.64
   Path::Class: 0.19
+  Pod::Usage: 1.32
   SDL: 2.510
   XML::Compile: 1.16
 resources:
   homepage: http://search.cpan.org/dist/Games-Zumbis
   repository: http://github.com/ruoso/Zumbis
-version: 0.02
+version: 0.03

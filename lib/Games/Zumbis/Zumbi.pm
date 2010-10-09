@@ -1,6 +1,6 @@
 package Games::Zumbis::Zumbi;
 BEGIN {
-  $Games::Zumbis::Zumbi::VERSION = '0.02';
+  $Games::Zumbis::Zumbi::VERSION = '0.03';
 }
 use Mouse;
 use SDL::Rect;

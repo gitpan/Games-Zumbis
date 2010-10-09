@@ -1,6 +1,6 @@
 package Games::Zumbis;
 BEGIN {
-  $Games::Zumbis::VERSION = '0.02';
+  $Games::Zumbis::VERSION = '0.03';
 }
 use strict;
 use warnings;
