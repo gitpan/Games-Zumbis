@@ -1,6 +1,6 @@
 package Games::Zumbis::Audio;
 BEGIN {
-  $Games::Zumbis::Audio::VERSION = '0.03';
+  $Games::Zumbis::Audio::VERSION = '0.04';
 }
 
 use strict;

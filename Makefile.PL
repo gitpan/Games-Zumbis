@@ -35,7 +35,7 @@ my %WriteMakefileArgs = (
     'SDL' => '2.510',
     'XML::Compile' => '1.16'
   },
-  'VERSION' => '0.03',
+  'VERSION' => '0.04',
   'test' => {
     'TESTS' => 't/*.t'
   }

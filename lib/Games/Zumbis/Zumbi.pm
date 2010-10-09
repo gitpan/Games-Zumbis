@@ -1,6 +1,6 @@
 package Games::Zumbis::Zumbi;
 BEGIN {
-  $Games::Zumbis::Zumbi::VERSION = '0.03';
+  $Games::Zumbis::Zumbi::VERSION = '0.04';
 }
 use Mouse;
 use SDL::Rect;
@@ -19,7 +19,7 @@ has y => (is => 'rw', required => 1);
 has sprite => (is => 'ro', handles => ['sequence']);
 has tx => (is => 'rw');
 has ty => (is => 'rw');
-has vel => (is => 'rw', default => 0.3);
+has vel => (is => 'rw', default => 0.5);
 has change_dt => (is => 'rw', default => \&set_new_dt  );
 has dt => (is => 'rw', default => 0 );
 

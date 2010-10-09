@@ -1,6 +1,6 @@
 package Games::Zumbis::Mapa;
 BEGIN {
-  $Games::Zumbis::Mapa::VERSION = '0.03';
+  $Games::Zumbis::Mapa::VERSION = '0.04';
 }
 use Mouse;
 use Games::Zumbis;
