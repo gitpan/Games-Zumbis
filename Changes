@@ -1,5 +1,13 @@
 Revision history for Games-Zumbis.
 
+0.05      2011-06-20 02:27:47 America/Sao_Paulo
+
+ - L10N support. Messages now in en-us and pt-br (garu)
+ - new windows icon (froggs)
+ - player can quit during the gameover scren (garu)
+ - minor internal refactoring (garu)
+ - oops, forgot to bump SDL minimal version (garu)
+
 0.04      2010-10-09 03:04:05 America/Sao_Paulo
 
  - faster game pace, and moar zombies! (garu)

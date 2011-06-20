@@ -1,6 +1,6 @@
 package Games::Zumbis;
 BEGIN {
-  $Games::Zumbis::VERSION = '0.04';
+  $Games::Zumbis::VERSION = '0.05';
 }
 use strict;
 use warnings;
@@ -15,7 +15,7 @@ sub sharedir {
     return $sharedir if $sharedir;
 
     my $root = Path::Class::Dir->new($FindBin::Bin,'..');
-warn "procurando $root";
+
     # desenvolvimento
     if ( -f $root->file('dist.ini') ) {
         $sharedir = $root->subdir('share');
@@ -85,6 +85,7 @@ that lists each source and specific license.
   Author: Daniel Ruoso <daniel@ruoso.com>
   Author: Gustavo Barbosa <gustavo.b.pires@gmail.com>
   Author: Kartik Thakore <thakore.kartik@gmail.com>
+  Author: Tobias Leich <email@froggs.de>
 
 =head1 CONTRIBUTIONS
 

@@ -4,7 +4,7 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 use File::ShareDir::Install;
 install_share dist => "share";
@@ -15,7 +15,7 @@ my %WriteMakefileArgs = (
   'AUTHOR' => 'Breno G. de Oliveira <garu@cpan.org>, Daniel Ruoso <ruoso@cpan.org>',
   'BUILD_REQUIRES' => {},
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31',
+    'ExtUtils::MakeMaker' => '6.30',
     'File::ShareDir::Install' => '0.03'
   },
   'DISTNAME' => 'Games-Zumbis',
@@ -29,13 +29,14 @@ my %WriteMakefileArgs = (
     'File::ShareDir' => '1.02',
     'FindBin' => '1.0',
     'Getopt::Long' => '2.35',
+    'Locale::Maketext' => '0',
     'Mouse' => '0.64',
     'Path::Class' => '0.19',
     'Pod::Usage' => '1.32',
-    'SDL' => '2.510',
+    'SDL' => '2.518',
     'XML::Compile' => '1.16'
   },
-  'VERSION' => '0.04',
+  'VERSION' => '0.05',
   'test' => {
     'TESTS' => 't/*.t'
   }
